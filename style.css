@@ -1,0 +1,133 @@
+body {
+    background: url(images/noteBook.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#caption {
+    position: absolute;
+    top: 38%;
+    left: 5%;
+    color: blue;
+    /*text-decoration:underline;*/
+    font-size: 20px;
+    text-shadow: 3px 3px 6px blue;
+    visibility: hidden;
+}
+
+.taskList {
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    border: solid black 2px;
+    width: 50%;
+    height: 40%;
+    padding: 2%;
+    visibility: hidden;
+    overflow: scroll;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.6);
+}
+
+.newTaskLabel {
+    position: absolute;
+    top: 6%;
+    left: 5%;
+    color: blue;
+    /*font-weight: bold;*/
+    font-size: 20px;
+    visibility: visible;
+    text-shadow: 3px 3px 6px blue;
+
+}
+
+.newTask {
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    border: 2px solid black;
+    width: 50%;
+    height: 15%;
+    overflow: scroll;
+    visibility: visible;
+    background-color: white;
+    text-shadow: 3px 3px 6px blue, 0 0 1em blue;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.6);
+}
+
+.newTask:focus {
+    border: 3px solid blue;
+}
+
+.addTask {
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    width: 10%;
+    height: 5%;
+    visibility: visible;
+    color: green;
+    text-shadow: 3px 3px 6px green;
+    box-shadow: 7px 7px 5px #3A3939;
+    border-style: outset;
+    cursor: pointer;
+}
+
+.addTask:hover {
+    color: #1AA0FD;
+}
+
+.addTask:active {
+    color: #1AA0FD;
+    box-shadow: 0.5px 0.5px 0.5px #3A3939;
+    border-style: inset;
+}
+
+.clearTask {
+    position: absolute;
+    left: 34%;
+    top: 30%;
+    width: 10%;
+    height: 5%;
+    visibility: visible;
+    color: red;
+    text-shadow: 3px 3px 6px red;
+    box-shadow: 7px 7px 5px #3A3939;
+    border-style: outset;
+    cursor: pointer;
+}
+
+.clearTask:hover {
+    color: #1AA0FD;
+}
+
+.clearTask:active {
+    color: #1AA0FD;
+    box-shadow: 0.5px 0.5px 0.5px #3A3939;
+    border-style: inset;
+}
+.clearAllDone{
+	position: absolute;
+    left: 34%;
+    top: 90%;
+    width: 10%;
+    height: 5%;
+    visibility: visible;
+    color: red;
+    text-shadow: 3px 3px 6px red;
+    box-shadow: 7px 7px 5px #3A3939;
+    border-style: outset;
+    cursor: pointer;
+
+}
+.checkAll {
+    position: absolute;
+    left: 45%;
+    top: 90%;
+    width: 10%;
+    height: 5%;
+    visibility: visible;
+    color: green;
+    text-shadow: 3px 3px 6px green;
+    box-shadow: 7px 7px 5px #3A3939;
+    border-style: outset;
+    cursor: pointer;
+}
